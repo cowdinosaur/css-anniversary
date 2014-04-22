@@ -14,13 +14,30 @@
 		551B85BB1906B1C100A340C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85BA1906B1C100A340C8 /* main.m */; };
 		551B85BF1906B1C100A340C8 /* CSAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85BE1906B1C100A340C8 /* CSAAppDelegate.m */; };
 		551B85C21906B1C100A340C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551B85C01906B1C100A340C8 /* Main.storyboard */; };
-		551B85C51906B1C100A340C8 /* CSAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85C41906B1C100A340C8 /* CSAViewController.m */; };
+		551B85C51906B1C100A340C8 /* CSAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85C41906B1C100A340C8 /* CSAHomeViewController.m */; };
 		551B85C71906B1C100A340C8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 551B85C61906B1C100A340C8 /* Images.xcassets */; };
 		551B85CE1906B1C100A340C8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551B85CD1906B1C100A340C8 /* XCTest.framework */; };
 		551B85CF1906B1C100A340C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551B85AE1906B1C000A340C8 /* Foundation.framework */; };
 		551B85D01906B1C100A340C8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 551B85B21906B1C100A340C8 /* UIKit.framework */; };
 		551B85D81906B1C100A340C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551B85D61906B1C100A340C8 /* InfoPlist.strings */; };
 		551B85DA1906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85D91906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests.m */; };
+		551B85E41906BD7900A340C8 /* GalleryStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551B85E31906BD7900A340C8 /* GalleryStoryboard.storyboard */; };
+		551B85E81906BDD000A340C8 /* CSAViewControllerRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85E71906BDD000A340C8 /* CSAViewControllerRegistry.m */; };
+		551B85EF1906BEB200A340C8 /* CSAGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85EE1906BEB200A340C8 /* CSAGalleryViewController.m */; };
+		551B85F11906BFF900A340C8 /* HeritageStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */; };
+		551B85F51906C0C600A340C8 /* CSAHeritageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */; };
+		554110761906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */; };
+		5541107A1906C85B0090B9E6 /* CSAExperiencesFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */; };
+		55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */; };
+		55BA8CA81906CF1A000D5F69 /* CSAFirstQnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */; };
+		55BA8CAA1906D0A7000D5F69 /* FactsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CA91906D0A7000D5F69 /* FactsStoryboard.storyboard */; };
+		55BA8CAD1906D0B6000D5F69 /* CSAFactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CAC1906D0B6000D5F69 /* CSAFactsViewController.m */; };
+		55BA8CB01906D333000D5F69 /* PongGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CAF1906D333000D5F69 /* PongGameStoryboard.storyboard */; };
+		55BA8CB41906D36C000D5F69 /* CSAPongGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CB31906D36C000D5F69 /* CSAPongGameViewController.m */; };
+		55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CB51906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard */; };
+		55BA8CBA1906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CB91906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m */; };
+		55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */; };
+		55BA8CBF1906DE11000D5F69 /* CSACreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +62,40 @@
 		551B85BD1906B1C100A340C8 /* CSAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAAppDelegate.h; sourceTree = "<group>"; };
 		551B85BE1906B1C100A340C8 /* CSAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAAppDelegate.m; sourceTree = "<group>"; };
 		551B85C11906B1C100A340C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		551B85C31906B1C100A340C8 /* CSAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAViewController.h; sourceTree = "<group>"; };
-		551B85C41906B1C100A340C8 /* CSAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAViewController.m; sourceTree = "<group>"; };
+		551B85C31906B1C100A340C8 /* CSAHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAHomeViewController.h; sourceTree = "<group>"; };
+		551B85C41906B1C100A340C8 /* CSAHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAHomeViewController.m; sourceTree = "<group>"; };
 		551B85C61906B1C100A340C8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		551B85CC1906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommonwealthSecondaryAnniversaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		551B85CD1906B1C100A340C8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		551B85D51906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CommonwealthSecondaryAnniversaryTests-Info.plist"; sourceTree = "<group>"; };
 		551B85D71906B1C100A340C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		551B85D91906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonwealthSecondaryAnniversaryTests.m; sourceTree = "<group>"; };
+		551B85E31906BD7900A340C8 /* GalleryStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GalleryStoryboard.storyboard; sourceTree = "<group>"; };
+		551B85E61906BDD000A340C8 /* CSAViewControllerRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAViewControllerRegistry.h; sourceTree = "<group>"; };
+		551B85E71906BDD000A340C8 /* CSAViewControllerRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAViewControllerRegistry.m; sourceTree = "<group>"; };
+		551B85ED1906BEB200A340C8 /* CSAGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAGalleryViewController.h; sourceTree = "<group>"; };
+		551B85EE1906BEB200A340C8 /* CSAGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAGalleryViewController.m; sourceTree = "<group>"; };
+		551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = HeritageStoryboard.storyboard; sourceTree = "<group>"; };
+		551B85F31906C0C600A340C8 /* CSAHeritageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageViewController.h; sourceTree = "<group>"; };
+		551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageViewController.m; sourceTree = "<group>"; };
+		554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExperiencesStoryboard.storyboard; sourceTree = "<group>"; };
+		554110781906C85B0090B9E6 /* CSAExperiencesFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAExperiencesFirstViewController.h; sourceTree = "<group>"; };
+		554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAExperiencesFirstViewController.m; sourceTree = "<group>"; };
+		55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuizStoryboard.storyboard; sourceTree = "<group>"; };
+		55BA8CA61906CF1A000D5F69 /* CSAFirstQnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAFirstQnViewController.h; sourceTree = "<group>"; };
+		55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAFirstQnViewController.m; sourceTree = "<group>"; };
+		55BA8CA91906D0A7000D5F69 /* FactsStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FactsStoryboard.storyboard; sourceTree = "<group>"; };
+		55BA8CAB1906D0B6000D5F69 /* CSAFactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAFactsViewController.h; sourceTree = "<group>"; };
+		55BA8CAC1906D0B6000D5F69 /* CSAFactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAFactsViewController.m; sourceTree = "<group>"; };
+		55BA8CAF1906D333000D5F69 /* PongGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PongGameStoryboard.storyboard; sourceTree = "<group>"; };
+		55BA8CB21906D36C000D5F69 /* CSAPongGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAPongGameViewController.h; sourceTree = "<group>"; };
+		55BA8CB31906D36C000D5F69 /* CSAPongGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAPongGameViewController.m; sourceTree = "<group>"; };
+		55BA8CB51906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FlappyBirdGameStoryboard.storyboard; sourceTree = "<group>"; };
+		55BA8CB81906D6DB000D5F69 /* CSAFlappyBirdGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAFlappyBirdGameViewController.h; sourceTree = "<group>"; };
+		55BA8CB91906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAFlappyBirdGameViewController.m; sourceTree = "<group>"; };
+		55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlappyBirdGame.xcassets; sourceTree = "<group>"; };
+		55BA8CBD1906DE11000D5F69 /* CSACreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSACreditsViewController.h; sourceTree = "<group>"; };
+		55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSACreditsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +157,15 @@
 			children = (
 				551B85BD1906B1C100A340C8 /* CSAAppDelegate.h */,
 				551B85BE1906B1C100A340C8 /* CSAAppDelegate.m */,
-				551B85C01906B1C100A340C8 /* Main.storyboard */,
-				551B85C31906B1C100A340C8 /* CSAViewController.h */,
-				551B85C41906B1C100A340C8 /* CSAViewController.m */,
+				551B85F61906C2D600A340C8 /* Home */,
+				55BA8CB71906D69E000D5F69 /* Flappy Bird Game */,
+				55BA8CB11906D338000D5F69 /* Pong Game */,
+				55BA8CAE1906D0BA000D5F69 /* Facts */,
+				55BA8CA51906CDDF000D5F69 /* Quiz */,
+				551B85F21906BFFE00A340C8 /* Heritage */,
+				551B85E51906BD7E00A340C8 /* Gallery */,
+				554110771906C5F30090B9E6 /* Experiences */,
+				551B85F71906C2E700A340C8 /* Utils */,
 				551B85C61906B1C100A340C8 /* Images.xcassets */,
 				551B85B51906B1C100A340C8 /* Supporting Files */,
 			);
@@ -150,6 +199,98 @@
 				551B85D61906B1C100A340C8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		551B85E51906BD7E00A340C8 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				551B85E31906BD7900A340C8 /* GalleryStoryboard.storyboard */,
+				551B85ED1906BEB200A340C8 /* CSAGalleryViewController.h */,
+				551B85EE1906BEB200A340C8 /* CSAGalleryViewController.m */,
+			);
+			name = Gallery;
+			sourceTree = "<group>";
+		};
+		551B85F21906BFFE00A340C8 /* Heritage */ = {
+			isa = PBXGroup;
+			children = (
+				551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */,
+				551B85F31906C0C600A340C8 /* CSAHeritageViewController.h */,
+				551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */,
+			);
+			name = Heritage;
+			sourceTree = "<group>";
+		};
+		551B85F61906C2D600A340C8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				551B85C01906B1C100A340C8 /* Main.storyboard */,
+				551B85C31906B1C100A340C8 /* CSAHomeViewController.h */,
+				551B85C41906B1C100A340C8 /* CSAHomeViewController.m */,
+				55BA8CBD1906DE11000D5F69 /* CSACreditsViewController.h */,
+				55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		551B85F71906C2E700A340C8 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				551B85E61906BDD000A340C8 /* CSAViewControllerRegistry.h */,
+				551B85E71906BDD000A340C8 /* CSAViewControllerRegistry.m */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		554110771906C5F30090B9E6 /* Experiences */ = {
+			isa = PBXGroup;
+			children = (
+				554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */,
+				554110781906C85B0090B9E6 /* CSAExperiencesFirstViewController.h */,
+				554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */,
+			);
+			name = Experiences;
+			sourceTree = "<group>";
+		};
+		55BA8CA51906CDDF000D5F69 /* Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */,
+				55BA8CA61906CF1A000D5F69 /* CSAFirstQnViewController.h */,
+				55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */,
+			);
+			name = Quiz;
+			sourceTree = "<group>";
+		};
+		55BA8CAE1906D0BA000D5F69 /* Facts */ = {
+			isa = PBXGroup;
+			children = (
+				55BA8CA91906D0A7000D5F69 /* FactsStoryboard.storyboard */,
+				55BA8CAB1906D0B6000D5F69 /* CSAFactsViewController.h */,
+				55BA8CAC1906D0B6000D5F69 /* CSAFactsViewController.m */,
+			);
+			name = Facts;
+			sourceTree = "<group>";
+		};
+		55BA8CB11906D338000D5F69 /* Pong Game */ = {
+			isa = PBXGroup;
+			children = (
+				55BA8CAF1906D333000D5F69 /* PongGameStoryboard.storyboard */,
+				55BA8CB21906D36C000D5F69 /* CSAPongGameViewController.h */,
+				55BA8CB31906D36C000D5F69 /* CSAPongGameViewController.m */,
+			);
+			name = "Pong Game";
+			sourceTree = "<group>";
+		};
+		55BA8CB71906D69E000D5F69 /* Flappy Bird Game */ = {
+			isa = PBXGroup;
+			children = (
+				55BA8CB51906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard */,
+				55BA8CB81906D6DB000D5F69 /* CSAFlappyBirdGameViewController.h */,
+				55BA8CB91906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m */,
+				55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */,
+			);
+			name = "Flappy Bird Game";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,8 +370,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554110761906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard in Resources */,
+				551B85E41906BD7900A340C8 /* GalleryStoryboard.storyboard in Resources */,
 				551B85C71906B1C100A340C8 /* Images.xcassets in Resources */,
+				55BA8CAA1906D0A7000D5F69 /* FactsStoryboard.storyboard in Resources */,
+				55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */,
+				551B85F11906BFF900A340C8 /* HeritageStoryboard.storyboard in Resources */,
+				55BA8CB01906D333000D5F69 /* PongGameStoryboard.storyboard in Resources */,
 				551B85B91906B1C100A340C8 /* InfoPlist.strings in Resources */,
+				55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */,
+				55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,9 +399,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				551B85C51906B1C100A340C8 /* CSAViewController.m in Sources */,
+				551B85C51906B1C100A340C8 /* CSAHomeViewController.m in Sources */,
+				55BA8CBF1906DE11000D5F69 /* CSACreditsViewController.m in Sources */,
 				551B85BF1906B1C100A340C8 /* CSAAppDelegate.m in Sources */,
+				55BA8CA81906CF1A000D5F69 /* CSAFirstQnViewController.m in Sources */,
+				551B85EF1906BEB200A340C8 /* CSAGalleryViewController.m in Sources */,
+				551B85F51906C0C600A340C8 /* CSAHeritageViewController.m in Sources */,
 				551B85BB1906B1C100A340C8 /* main.m in Sources */,
+				551B85E81906BDD000A340C8 /* CSAViewControllerRegistry.m in Sources */,
+				55BA8CAD1906D0B6000D5F69 /* CSAFactsViewController.m in Sources */,
+				55BA8CB41906D36C000D5F69 /* CSAPongGameViewController.m in Sources */,
+				55BA8CBA1906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m in Sources */,
+				5541107A1906C85B0090B9E6 /* CSAExperiencesFirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +615,7 @@
 				551B85DF1906B1C100A340C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		551B85E01906B1C100A340C8 /* Build configuration list for PBXNativeTarget "CommonwealthSecondaryAnniversaryTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +624,7 @@
 				551B85E21906B1C100A340C8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

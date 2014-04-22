@@ -1,23 +1,23 @@
 //
-//  CSAViewController.m
+//  CSAGalleryViewController.m
 //  CommonwealthSecondaryAnniversary
 //
 //  Created by akmal abdul rahman on 22/4/14.
 //  Copyright (c) 2014 Tinkertanker. All rights reserved.
 //
 
-#import "CSAViewController.h"
+#import "CSAGalleryViewController.h"
 
-@interface CSAViewController ()
+@interface CSAGalleryViewController ()
 
 @end
 
-@implementation CSAViewController
+@implementation CSAGalleryViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning
