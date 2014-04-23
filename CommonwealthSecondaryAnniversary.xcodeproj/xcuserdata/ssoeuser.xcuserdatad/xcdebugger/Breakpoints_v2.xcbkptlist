@@ -3,6 +3,9 @@
    type = "1"
    version = "2.0">
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> chagnes for quiz
    <Breakpoints>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
@@ -10,6 +13,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "CommonwealthSecondaryAnniversary/CSAHeritageViewController.m"
             timestampString = "419931933.215857"
             startingColumnNumber = "9223372036854775807"
@@ -49,6 +53,15 @@
             startingLineNumber = "12"
             endingLineNumber = "12"
             landmarkName = "@interface CSAHeritageViewController()"
+=======
+            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            timestampString = "419937678.524661"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "184"
+            endingLineNumber = "184"
+            landmarkName = "@interface UIViewController"
+>>>>>>> chagnes for quiz
             landmarkType = "2">
          </BreakpointContent>
       </BreakpointProxy>
@@ -58,6 +71,7 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
+<<<<<<< HEAD
             filePath = "CommonwealthSecondaryAnniversary/CSAHeritageViewController.m"
             timestampString = "419933954.085267"
             startingColumnNumber = "9223372036854775807"
@@ -83,4 +97,17 @@
    </Breakpoints>
 =======
 >>>>>>> changes for Pong game
+=======
+            filePath = "../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIViewController.h"
+            timestampString = "419937721.77316"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "193"
+            endingLineNumber = "193"
+            landmarkName = "@interface UIViewController"
+            landmarkType = "2">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+>>>>>>> chagnes for quiz
 </Bucket>

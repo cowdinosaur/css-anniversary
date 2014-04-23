@@ -42,7 +42,7 @@
 }
 
 - (IBAction)correctTapped:(id)sender {
-    NSLog(@"YOu are right");
-    self.resultLabel.text = @"YOu are right!!!!";
+    NSLog(@"You are right");
+    self.resultLabel.text = @"You are right!!!!";
 }
 @end
