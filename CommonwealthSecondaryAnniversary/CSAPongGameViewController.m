@@ -12,17 +12,18 @@
 @property (nonatomic) float enemyspeed;
 @property (nonatomic) float ballSpeedX;
 @property (nonatomic) float ballSpeedY;
+@property NSInteger time;
 @end
 
 @implementation CSAPongGameViewController
-static const float kEnemySpeedConstant = 50.0;
+static const float kEnemySpeedConstant = 20.0;
 static const float kAnimationInterval = 1.0/50.0;
 static const float kMaxWindowWidth = 320;
 static const float kMinWindowWidth = 0;
 static const float kMinWindowHeight = -1068;
 static const float kMaxWindowHeight = 1068;
-static const float kBallSpeedXConstant = 20.0;
-static const float kBallSpeedYConstant = 20.0;
+static const float kBallSpeedXConstant = 10.0;
+static const float kBallSpeedYConstant = 10.0;
 -(BOOL)prefersStatusBarHidden {
     return YES;
 }
@@ -30,10 +31,20 @@ static const float kBallSpeedYConstant = 20.0;
 {
     [super viewDidLoad];
 	[NSTimer scheduledTimerWithTimeInterval:kAnimationInterval target:self selector:@selector(timerAnimate) userInfo:nil repeats:YES];
+    [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(timerUpdate) userInfo:nil repeats:YES];
     self.enemyspeed = kEnemySpeedConstant;
     self.ballSpeedX = kBallSpeedXConstant;
     self.ballSpeedY = kBallSpeedYConstant;
+    self.time = 0;
 }
+
+- (void)timerUpdate
+{
+    self.time = self.time + 1;
+    self.timerlabel.text = [NSString stringWithFormat:@"%d", self.time];
+    NSLog(@"Time is %d", self.time);
+}
+
 - (void)timerAnimate
 {
     [self animateEnemy];
@@ -60,17 +71,26 @@ static const float kBallSpeedYConstant = 20.0;
     }
     
     self.Ball.center = CGPointMake(ballPoint.x + self.ballSpeedX, ballPoint.y + self.ballSpeedY);
+    if (ballPoint.y > 568){
+        NSString *title = [NSString stringWithFormat:@"Time: %d", self.time];
+        [[[UIAlertView alloc] initWithTitle:title message:@"GameOver" delegate:self cancelButtonTitle:@"Restart" otherButtonTitles: @"Quit", nil] show];
+        self.ballSpeedX = 0;
+        self.ballSpeedY = 0;
+        self.Ball.center = CGPointMake(160,100);
+    }
+    
 }
+
 -(void)animateEnemy
 {
     CGPoint paddlePoint = self.AIPaddle.center;
     CGSize paddleSize = self.AIPaddle.frame.size;
     
     if (self.enemyspeed > 0 && (paddlePoint.x + paddleSize.width/2) > kMaxWindowWidth) {
-        NSLog(@"Turning left");
+        //NSLog(@"Turning left");
         self.enemyspeed = - kEnemySpeedConstant;
     } else if (self.enemyspeed < 0 && (paddlePoint.x - paddleSize.width/2) < kMinWindowWidth) {
-        NSLog(@"Turning right");
+        //NSLog(@"Turning right");
         self.enemyspeed = kEnemySpeedConstant;
     }
     self.AIPaddle.center = CGPointMake(paddlePoint.x + self.enemyspeed, paddlePoint.y);
@@ -93,8 +113,15 @@ static const float kBallSpeedYConstant = 20.0;
     }
 }
 
+- (IBAction)quit:(id)sender {
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
 
-
-
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    self.ballSpeedX = kBallSpeedXConstant;
+    self.ballSpeedY = kBallSpeedYConstant;
+    self.time = 0;
+}
 
 @end

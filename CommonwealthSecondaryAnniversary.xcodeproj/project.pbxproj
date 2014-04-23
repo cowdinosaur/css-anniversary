@@ -68,6 +68,7 @@
 		86BC11E91907B493006BDD8A /* CSAHeritageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */; };
 		86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */; };
 		86BC11EE1907BAF4006BDD8A /* values.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11ED1907BAF4006BDD8A /* values.jpg */; };
+		869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869394071907ABC800D1C8FF /* PongGame.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,6 +128,7 @@
 		55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlappyBirdGame.xcassets; sourceTree = "<group>"; };
 		55BA8CBD1906DE11000D5F69 /* CSACreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSACreditsViewController.h; sourceTree = "<group>"; };
 		55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSACreditsViewController.m; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		869E3A791907AE7800C7FF95 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		869E3A7A1907AE7800C7FF95 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		869E3A7B1907AE7800C7FF95 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 		86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageSecondViewController.h; sourceTree = "<group>"; };
 		86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageSecondViewController.m; sourceTree = "<group>"; };
 		86BC11ED1907BAF4006BDD8A /* values.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = values.jpg; path = ../../../Downloads/values.jpg; sourceTree = "<group>"; };
+		869394071907ABC800D1C8FF /* PongGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PongGame.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -349,6 +352,7 @@
 				55BA8CAF1906D333000D5F69 /* PongGameStoryboard.storyboard */,
 				55BA8CB21906D36C000D5F69 /* CSAPongGameViewController.h */,
 				55BA8CB31906D36C000D5F69 /* CSAPongGameViewController.m */,
+				869394071907ABC800D1C8FF /* PongGame.xcassets */,
 			);
 			name = "Pong Game";
 			sourceTree = "<group>";
@@ -508,6 +512,7 @@
 				55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */,
 				869E3A9F1907AE7800C7FF95 /* 22.jpg in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
+				869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */,
 				5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */,
 				86BC11E61907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg in Resources */,
 				86BC11E41907A9AF006BDD8A /* Sand.jpg in Resources */,
