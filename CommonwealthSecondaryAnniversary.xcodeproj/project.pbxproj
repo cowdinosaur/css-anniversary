@@ -63,6 +63,11 @@
 		869E3AA61907AE7800C7FF95 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A8E1907AE7800C7FF95 /* 7.jpg */; };
 		869E3AA71907AE7800C7FF95 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A8F1907AE7800C7FF95 /* 8.jpg */; };
 		869E3AA81907AE7800C7FF95 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A901907AE7800C7FF95 /* 9.jpg */; };
+		86BC11E41907A9AF006BDD8A /* Sand.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11E31907A9AF006BDD8A /* Sand.jpg */; };
+		86BC11E61907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11E51907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg */; };
+		86BC11E91907B493006BDD8A /* CSAHeritageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */; };
+		86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */; };
+		86BC11EE1907BAF4006BDD8A /* values.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11ED1907BAF4006BDD8A /* values.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +151,13 @@
 		869E3A8E1907AE7800C7FF95 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		869E3A8F1907AE7800C7FF95 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		869E3A901907AE7800C7FF95 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		86BC11E31907A9AF006BDD8A /* Sand.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Sand.jpg; path = ../../Sand.jpg; sourceTree = "<group>"; };
+		86BC11E51907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "old_music_score_background-wallpaper-2560x1600.jpg"; path = "../../../Downloads/old_music_score_background-wallpaper-2560x1600.jpg"; sourceTree = "<group>"; };
+		86BC11E71907B493006BDD8A /* CSAHeritageThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageThirdViewController.h; sourceTree = "<group>"; };
+		86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageThirdViewController.m; sourceTree = "<group>"; };
+		86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageSecondViewController.h; sourceTree = "<group>"; };
+		86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageSecondViewController.m; sourceTree = "<group>"; };
+		86BC11ED1907BAF4006BDD8A /* values.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = values.jpg; path = ../../../Downloads/values.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -266,6 +278,13 @@
 			isa = PBXGroup;
 			children = (
 				551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */,
+				86BC11ED1907BAF4006BDD8A /* values.jpg */,
+				86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */,
+				86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */,
+				86BC11E71907B493006BDD8A /* CSAHeritageThirdViewController.h */,
+				86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */,
+				86BC11E51907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg */,
+				86BC11E31907A9AF006BDD8A /* Sand.jpg */,
 				551B85F31906C0C600A340C8 /* CSAHeritageViewController.h */,
 				551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */,
 			);
@@ -472,6 +491,7 @@
 				55BA8CAA1906D0A7000D5F69 /* FactsStoryboard.storyboard in Resources */,
 				869E3AA11907AE7800C7FF95 /* 24.jpg in Resources */,
 				869E3AA21907AE7800C7FF95 /* 3.jpg in Resources */,
+				86BC11EE1907BAF4006BDD8A /* values.jpg in Resources */,
 				55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */,
 				869E3A9B1907AE7800C7FF95 /* 19.jpg in Resources */,
 				869E3AA71907AE7800C7FF95 /* 8.jpg in Resources */,
@@ -489,6 +509,8 @@
 				869E3A9F1907AE7800C7FF95 /* 22.jpg in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
 				5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */,
+				86BC11E61907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg in Resources */,
+				86BC11E41907A9AF006BDD8A /* Sand.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +530,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				551B85C51906B1C100A340C8 /* CSAHomeViewController.m in Sources */,
+				86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */,
 				55BA8CBF1906DE11000D5F69 /* CSACreditsViewController.m in Sources */,
 				551B85BF1906B1C100A340C8 /* CSAAppDelegate.m in Sources */,
 				55BA8CA81906CF1A000D5F69 /* CSAFirstQnViewController.m in Sources */,
@@ -516,6 +539,7 @@
 				551B85BB1906B1C100A340C8 /* main.m in Sources */,
 				551B85E81906BDD000A340C8 /* CSAViewControllerRegistry.m in Sources */,
 				55BA8CAD1906D0B6000D5F69 /* CSAFactsViewController.m in Sources */,
+				86BC11E91907B493006BDD8A /* CSAHeritageThirdViewController.m in Sources */,
 				55BA8CB41906D36C000D5F69 /* CSAPongGameViewController.m in Sources */,
 				55BA8CBA1906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m in Sources */,
 				5541107A1906C85B0090B9E6 /* CSAExperiencesFirstViewController.m in Sources */,

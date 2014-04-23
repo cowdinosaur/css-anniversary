@@ -27,4 +27,12 @@
 }
 
 
+- (IBAction)goBack:(id)sender {
+    [self.navigationController popViewControllerAnimated:YES];
+
+}
+
+- (IBAction)nextPage:(id)sender {
+}
+
 @end

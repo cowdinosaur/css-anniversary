@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface CSAHeritageViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIButton *backButton;
+- (IBAction)goBack:(id)sender;
+- (IBAction)nextPage:(id)sender;
 
 @end

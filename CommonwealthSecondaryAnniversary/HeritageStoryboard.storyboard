@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="QaL-ve-ahf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="QaL-ve-ahf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Heritage View Controller-->
         <scene sceneID="dSh-Kb-3XY">
             <objects>
-                <viewController id="QaL-ve-ahf" sceneMemberID="viewController">
+                <viewController id="QaL-ve-ahf" customClass="CSAHeritageViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="03H-xK-CJU"/>
                         <viewControllerLayoutGuide type="bottom" id="2F0-4i-YyE"/>
@@ -16,10 +16,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Commonwealth Secondary School History" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kuF-6e-fFo">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sand.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-DX-Tyr">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Commonwealth Secondary School " textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="kuF-6e-fFo">
                                 <rect key="frame" x="40" y="51" width="233" height="127"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -27,7 +30,6 @@
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tW2-kh-a0N">
                                 <rect key="frame" x="40" y="191" width="240" height="325"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Vision:
 A community of passionate learners who spark imagination, illuminate new frontiers and inspire change for a better world.
 Mission: 
@@ -40,19 +42,99 @@ Ever with the Best!
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzn-3y-rMp">
+                                <rect key="frame" x="40" y="503" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="GYi-f8-YjC"/>
+                                </constraints>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="QaL-ve-ahf" eventType="touchUpInside" id="nEP-VP-pQA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JFg-lI-q7K">
+                                <rect key="frame" x="102" y="503" width="88" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="School Song">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="nextPage:" destination="QaL-ve-ahf" eventType="touchUpInside" id="K4j-Oe-tHb"/>
+                                    <segue destination="Zy8-U0-fR7" kind="push" id="m3g-Sq-O9V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5rs-On-baV">
+                                <rect key="frame" x="204" y="503" width="96" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Wealth Values">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="7qd-9G-xMp" kind="push" id="Thj-3V-8AU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ted-jW-ZG5"/>
+                    <connections>
+                        <outlet property="backButton" destination="jzn-3y-rMp" id="hm8-Wc-z9L"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="r1y-gv-0pf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="947" y="-56"/>
         </scene>
-        <!--View Controller-->
+        <!--Heritage Third View Controller-->
+        <scene sceneID="bGW-nD-2O4">
+            <objects>
+                <viewController id="7qd-9G-xMp" customClass="CSAHeritageThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zpz-oe-g3v"/>
+                        <viewControllerLayoutGuide type="bottom" id="vGc-dE-OSL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bAL-BU-TKJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.24999999999999967" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="values.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GZL-46-aXL">
+                                <rect key="frame" x="0.0" y="0.0" width="340" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-hA-YND">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <mutableString key="text">WEALTH Values                                                                   Warmth  -  Care and concern for members of the Commonwealth family, the wider community and the world.                                                                                    Enterprise  -  Initiate and resoursefulness to trail-blaze new frontiers.                        Adventurousness  -  Enthusiasm to explore new ideas and new learning experiences. Desire for continuous learning and growth.                                   Loyalty  -  Sense of duty and responsibilty to family, friends, school, community and country.                                                 Tenacity  -  "Grit", the ability to persevere through hardship to acheive success. Willingness to engage in productive failure in order to achieve success.                                                                       Honour  -  Integrity and pride. Upholding and enhancing the reputation of the school.</mutableString>
+                                <color key="textColor" red="1" green="0.047118742969354588" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Smw-Ln-hK1">
+                                <rect key="frame" x="142" y="518" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="7qd-9G-xMp" eventType="touchUpInside" id="Lbo-Pl-vKv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QeV-Rf-EnC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CP7-ue-YFN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="961" y="603"/>
+        </scene>
+        <!--Heritage Second View Controller-->
         <scene sceneID="ZtZ-Vl-ECw">
             <objects>
-                <viewController id="Zy8-U0-fR7" sceneMemberID="viewController">
+                <viewController id="Zy8-U0-fR7" customClass="CSAHeritageSecondViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FrL-MT-Xfb"/>
                         <viewControllerLayoutGuide type="bottom" id="ACJ-xR-XVC"/>
@@ -61,33 +143,50 @@ Ever with the Best!
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="School song" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="8Ig-Lb-Cjw">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="old_music_score_background-wallpaper-2560x1600.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-0q-lBq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kHr-ju-9Rc">
                                 <rect key="frame" x="40" y="94" width="240" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <string key="text">To serve will be our very aim
-No influence will our zeal maim
-The purity of thought and deed we'll nurture
-Thus we will attain stature</string>
+                                <mutableString key="text">Commonwealth Secondary School                                                      To you we pledge our loyalty Neither colour nor creed shall affect The total unity we pledge to you Your flag and principles we'll cherish Even if we have in the course to perish The cresent and stars five shall guide                           The flame of solidarity in which we pride                                                  To serve will be our very aim             No influence will pur zeal maim        The purity of thought and deed we'll nurture                                               Thus we will attain stature</mutableString>
+                                <color key="textColor" red="1" green="0.0" blue="0.72509444010000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="School Song" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="yly-75-dip">
+                                <rect key="frame" x="40" y="35" width="240" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" red="1" green="0.10566986239999999" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wdf-zO-JBo">
+                                <rect key="frame" x="137" y="518" width="35" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goBack:" destination="Zy8-U0-fR7" eventType="touchUpInside" id="e74-Qs-fLN"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="mIt-Hw-smN"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mrf-3U-85G" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1336" y="-56"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Sand.jpg" width="1280" height="1024"/>
+        <image name="old_music_score_background-wallpaper-2560x1600.jpg" width="2560" height="1600"/>
+        <image name="values.jpg" width="1600" height="1064"/>
+    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
