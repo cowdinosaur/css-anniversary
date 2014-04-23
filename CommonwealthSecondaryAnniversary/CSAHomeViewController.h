@@ -17,4 +17,7 @@
 - (IBAction)gotoPongGame:(id)sender;
 - (IBAction)gotoFlappyBirdGame:(id)sender;
 
+@property (weak, nonatomic) IBOutlet UIView *flappyBirdButton;
+@property (weak, nonatomic) IBOutlet UIView *pongButton;
+
 @end

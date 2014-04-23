@@ -28,6 +28,7 @@
 		551B85F51906C0C600A340C8 /* CSAHeritageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */; };
 		554110761906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */; };
 		5541107A1906C85B0090B9E6 /* CSAExperiencesFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */; };
+		5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5598C2741907596800992CC3 /* QuizMedia.xcassets */; };
 		55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */; };
 		55BA8CA81906CF1A000D5F69 /* CSAFirstQnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */; };
 		55BA8CAA1906D0A7000D5F69 /* FactsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CA91906D0A7000D5F69 /* FactsStoryboard.storyboard */; };
@@ -81,6 +82,7 @@
 		554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExperiencesStoryboard.storyboard; sourceTree = "<group>"; };
 		554110781906C85B0090B9E6 /* CSAExperiencesFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAExperiencesFirstViewController.h; sourceTree = "<group>"; };
 		554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAExperiencesFirstViewController.m; sourceTree = "<group>"; };
+		5598C2741907596800992CC3 /* QuizMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QuizMedia.xcassets; sourceTree = "<group>"; };
 		55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuizStoryboard.storyboard; sourceTree = "<group>"; };
 		55BA8CA61906CF1A000D5F69 /* CSAFirstQnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAFirstQnViewController.h; sourceTree = "<group>"; };
 		55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAFirstQnViewController.m; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */,
 				55BA8CA61906CF1A000D5F69 /* CSAFirstQnViewController.h */,
 				55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */,
+				5598C2741907596800992CC3 /* QuizMedia.xcassets */,
 			);
 			name = Quiz;
 			sourceTree = "<group>";
@@ -381,6 +384,7 @@
 				55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */,
 				55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
+				5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

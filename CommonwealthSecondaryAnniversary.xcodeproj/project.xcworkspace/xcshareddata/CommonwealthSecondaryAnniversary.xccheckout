@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DB9344F5-75D0-47BD-881B-F82C4330BACE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CommonwealthSecondaryAnniversary</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D488082B-6B69-43CB-852F-512C6B44A71C</key>
+		<string>ssh://github.com/cowdinosaur/css-anniversary.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CommonwealthSecondaryAnniversary.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D488082B-6B69-43CB-852F-512C6B44A71C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/cowdinosaur/css-anniversary.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D488082B-6B69-43CB-852F-512C6B44A71C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D488082B-6B69-43CB-852F-512C6B44A71C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CommonwealthSecondaryAnniversary</string>
+		</dict>
+	</array>
+</dict>
+</plist>
