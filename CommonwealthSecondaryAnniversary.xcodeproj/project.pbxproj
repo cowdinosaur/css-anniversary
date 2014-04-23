@@ -75,6 +75,11 @@
 		869E3AB11907BDD000C7FF95 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAC1907BDD000C7FF95 /* 29.jpg */; };
 		869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAD1907BDD000C7FF95 /* 30.jpg */; };
 		869E3AB41907BE9900C7FF95 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AB31907BE9900C7FF95 /* unnamed.jpg */; };
+		86F399DE1907C02500C34D39 /* nnsch2834e_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */; };
+		86F399E01907C09900C34D39 /* CommonwealthLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */; };
+		86F399E21907C64300C34D39 /* 18486840.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E11907C64300C34D39 /* 18486840.JPG */; };
+		86F399E41907C76300C34D39 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E31907C76300C34D39 /* 2.jpg */; };
+		86F399E61907C76D00C34D39 /* mrloh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E51907C76D00C34D39 /* mrloh.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +177,11 @@
 		869E3AAC1907BDD000C7FF95 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
 		869E3AAD1907BDD000C7FF95 /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
 		869E3AB31907BE9900C7FF95 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
+		86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nnsch2834e_0.jpg; path = ../../nnsch2834e_0.jpg; sourceTree = "<group>"; };
+		86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CommonwealthLogo.jpg; path = ../../CommonwealthLogo.jpg; sourceTree = "<group>"; };
+		86F399E11907C64300C34D39 /* 18486840.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 18486840.JPG; path = ../../18486840.JPG; sourceTree = "<group>"; };
+		86F399E31907C76300C34D39 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
+		86F399E51907C76D00C34D39 /* mrloh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mrloh.jpg; path = ../../mrloh.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -291,6 +301,11 @@
 		551B85F21906BFFE00A340C8 /* Heritage */ = {
 			isa = PBXGroup;
 			children = (
+				86F399E51907C76D00C34D39 /* mrloh.jpg */,
+				86F399E31907C76300C34D39 /* 2.jpg */,
+				86F399E11907C64300C34D39 /* 18486840.JPG */,
+				86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */,
+				86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */,
 				551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */,
 				86BC11ED1907BAF4006BDD8A /* values.jpg */,
 				86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */,
@@ -526,16 +541,23 @@
 				869E3AA31907AE7800C7FF95 /* 4.jpg in Resources */,
 				869E3A941907AE7800C7FF95 /* 12.jpg in Resources */,
 				869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */,
+				86F399E01907C09900C34D39 /* CommonwealthLogo.jpg in Resources */,
+				55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */,
+				86F399E41907C76300C34D39 /* 2.jpg in Resources */,
+				551B85F11906BFF900A340C8 /* HeritageStoryboard.storyboard in Resources */,
+				86F399E21907C64300C34D39 /* 18486840.JPG in Resources */,
 				55BA8CB01906D333000D5F69 /* PongGameStoryboard.storyboard in Resources */,
 				869E3A921907AE7800C7FF95 /* 10.jpg in Resources */,
 				869E3A991907AE7800C7FF95 /* 17.jpg in Resources */,
 				869E3AA61907AE7800C7FF95 /* 7.jpg in Resources */,
 				551B85B91906B1C100A340C8 /* InfoPlist.strings in Resources */,
+				86F399E61907C76D00C34D39 /* mrloh.jpg in Resources */,
 				55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */,
 				55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */,
 				869E3A9F1907AE7800C7FF95 /* 22.jpg in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
 				869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */,
+				86F399DE1907C02500C34D39 /* nnsch2834e_0.jpg in Resources */,
 				5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */,
 				86BC11E61907ACCA006BDD8A /* old_music_score_background-wallpaper-2560x1600.jpg in Resources */,
 				86BC11E41907A9AF006BDD8A /* Sand.jpg in Resources */,
@@ -700,6 +722,7 @@
 				INFOPLIST_FILE = "CommonwealthSecondaryAnniversary/CommonwealthSecondaryAnniversary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -714,6 +737,7 @@
 				INFOPLIST_FILE = "CommonwealthSecondaryAnniversary/CommonwealthSecondaryAnniversary-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
