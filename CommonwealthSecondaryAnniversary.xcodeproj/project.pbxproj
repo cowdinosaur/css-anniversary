@@ -69,6 +69,12 @@
 		86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */; };
 		86BC11EE1907BAF4006BDD8A /* values.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11ED1907BAF4006BDD8A /* values.jpg */; };
 		869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869394071907ABC800D1C8FF /* PongGame.xcassets */; };
+		869E3AAE1907BDD000C7FF95 /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AA91907BDD000C7FF95 /* 26.jpg */; };
+		869E3AAF1907BDD000C7FF95 /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAA1907BDD000C7FF95 /* 27.jpg */; };
+		869E3AB01907BDD000C7FF95 /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAB1907BDD000C7FF95 /* 28.jpg */; };
+		869E3AB11907BDD000C7FF95 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAC1907BDD000C7FF95 /* 29.jpg */; };
+		869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAD1907BDD000C7FF95 /* 30.jpg */; };
+		869E3AB41907BE9900C7FF95 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AB31907BE9900C7FF95 /* unnamed.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,7 +134,6 @@
 		55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlappyBirdGame.xcassets; sourceTree = "<group>"; };
 		55BA8CBD1906DE11000D5F69 /* CSACreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSACreditsViewController.h; sourceTree = "<group>"; };
 		55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSACreditsViewController.m; sourceTree = "<group>"; };
-<<<<<<< HEAD
 		869E3A791907AE7800C7FF95 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		869E3A7A1907AE7800C7FF95 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		869E3A7B1907AE7800C7FF95 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
@@ -161,6 +166,12 @@
 		86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageSecondViewController.m; sourceTree = "<group>"; };
 		86BC11ED1907BAF4006BDD8A /* values.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = values.jpg; path = ../../../Downloads/values.jpg; sourceTree = "<group>"; };
 		869394071907ABC800D1C8FF /* PongGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PongGame.xcassets; sourceTree = "<group>"; };
+		869E3AA91907BDD000C7FF95 /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
+		869E3AAA1907BDD000C7FF95 /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
+		869E3AAB1907BDD000C7FF95 /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
+		869E3AAC1907BDD000C7FF95 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
+		869E3AAD1907BDD000C7FF95 /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
+		869E3AB31907BE9900C7FF95 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -371,6 +382,12 @@
 		869E3A781907AE7800C7FF95 /* Photos */ = {
 			isa = PBXGroup;
 			children = (
+				869E3AB31907BE9900C7FF95 /* unnamed.jpg */,
+				869E3AA91907BDD000C7FF95 /* 26.jpg */,
+				869E3AAA1907BDD000C7FF95 /* 27.jpg */,
+				869E3AAB1907BDD000C7FF95 /* 28.jpg */,
+				869E3AAC1907BDD000C7FF95 /* 29.jpg */,
+				869E3AAD1907BDD000C7FF95 /* 30.jpg */,
 				869E3A791907AE7800C7FF95 /* 1.jpg */,
 				869E3A7A1907AE7800C7FF95 /* 10.jpg */,
 				869E3A7B1907AE7800C7FF95 /* 11.jpg */,
@@ -476,6 +493,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				869E3AB11907BDD000C7FF95 /* 29.jpg in Resources */,
+				869E3AB01907BDD000C7FF95 /* 28.jpg in Resources */,
 				869E3AA51907AE7800C7FF95 /* 6.jpg in Resources */,
 				869E3A9E1907AE7800C7FF95 /* 21.jpg in Resources */,
 				869E3A981907AE7800C7FF95 /* 16.jpg in Resources */,
@@ -487,6 +506,9 @@
 				869E3AA01907AE7800C7FF95 /* 23.gif in Resources */,
 				869E3AA81907AE7800C7FF95 /* 9.jpg in Resources */,
 				551B85E41906BD7900A340C8 /* GalleryStoryboard.storyboard in Resources */,
+				869E3AAE1907BDD000C7FF95 /* 26.jpg in Resources */,
+				869E3AB41907BE9900C7FF95 /* unnamed.jpg in Resources */,
+				869E3AAF1907BDD000C7FF95 /* 27.jpg in Resources */,
 				869E3AA41907AE7800C7FF95 /* 5.jpg in Resources */,
 				869E3A9C1907AE7800C7FF95 /* 2.jpg in Resources */,
 				551B85C71906B1C100A340C8 /* Images.xcassets in Resources */,
@@ -503,6 +525,7 @@
 				869E3A9A1907AE7800C7FF95 /* 18.jpg in Resources */,
 				869E3AA31907AE7800C7FF95 /* 4.jpg in Resources */,
 				869E3A941907AE7800C7FF95 /* 12.jpg in Resources */,
+				869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */,
 				55BA8CB01906D333000D5F69 /* PongGameStoryboard.storyboard in Resources */,
 				869E3A921907AE7800C7FF95 /* 10.jpg in Resources */,
 				869E3A991907AE7800C7FF95 /* 17.jpg in Resources */,
