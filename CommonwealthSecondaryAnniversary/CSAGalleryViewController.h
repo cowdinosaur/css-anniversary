@@ -10,4 +10,5 @@
 
 @interface CSAGalleryViewController : UIViewController
 
+- (IBAction)goBack:(id)sender;
 @end
