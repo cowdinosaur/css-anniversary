@@ -31,6 +31,8 @@
 }
 
 - (IBAction)goHome:(id)sender {
-    [self.navigationController popToRootViewControllerAnimated:YES];
+    
+    NSArray *vcs = self.navigationController.viewControllers;
+    [self.navigationController setViewControllers:@[[vcs objectAtIndex:0], [vcs objectAtIndex:1] ]animated:YES];
 }
 @end

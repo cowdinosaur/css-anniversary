@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CSAFlappyBirdGameViewController : UIViewController
+@interface CSAFlappyBirdGameViewController : UIViewController <UIAlertViewDelegate>
 
 @end

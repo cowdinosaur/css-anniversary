@@ -19,9 +19,14 @@
 
 @implementation CSAHomeViewController
 
-const float kFlappyBirdYPos = 400;
-const float kPongYPos = 450;
+const float kFlappyBirdYPos = 350;
+const float kPongYPos = 400;
 
+- (void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -80,8 +85,6 @@ const float kPongYPos = 450;
 - (IBAction)gotoExperiences:(id)sender
 {
     UIViewController *vc = [CSAViewControllerRegistry instantiateExperiencesViewController];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-
     [self.navigationController pushViewController:vc animated:YES];
 }
 
@@ -90,6 +93,14 @@ const float kPongYPos = 450;
     UIViewController *vc = [CSAViewControllerRegistry instantiateQuizViewController];
     [self.navigationController pushViewController:vc animated:YES];
 }
+
+- (IBAction)gotoFacts:(id)sender
+{
+    UIViewController *vc = [CSAViewControllerRegistry instantiateFactsViewController];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
 
 - (IBAction)gotoPongGame:(id)sender
 {

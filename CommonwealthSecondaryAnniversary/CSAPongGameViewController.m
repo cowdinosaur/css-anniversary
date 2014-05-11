@@ -16,14 +16,14 @@
 @end
 
 @implementation CSAPongGameViewController
-static const float kEnemySpeedConstant = 20.0;
+static const float kEnemySpeedConstant = 5.0;
 static const float kAnimationInterval = 1.0/50.0;
 static const float kMaxWindowWidth = 320;
 static const float kMinWindowWidth = 0;
 static const float kMinWindowHeight = -1068;
 static const float kMaxWindowHeight = 1068;
-static const float kBallSpeedXConstant = 10.0;
-static const float kBallSpeedYConstant = 10.0;
+static const float kBallSpeedXConstant = 4.0;
+static const float kBallSpeedYConstant = 4.0;
 -(BOOL)prefersStatusBarHidden {
     return YES;
 }
@@ -42,7 +42,6 @@ static const float kBallSpeedYConstant = 10.0;
 {
     self.time = self.time + 1;
     self.timerlabel.text = [NSString stringWithFormat:@"%d", self.time];
-    NSLog(@"Time is %d", self.time);
 }
 
 - (void)timerAnimate
@@ -95,9 +94,9 @@ static const float kBallSpeedYConstant = 10.0;
     }
     self.AIPaddle.center = CGPointMake(paddlePoint.x + self.enemyspeed, paddlePoint.y);
 }
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
 {
-    NSLog(@"So touching");
     for (UITouch *touch in touches) {
         CGPoint touchPoint = [touch locationInView:self.view];
         self.PlayerPaddle.center= CGPointMake(touchPoint.x, self.PlayerPaddle.center.y);
@@ -119,9 +118,13 @@ static const float kBallSpeedYConstant = 10.0;
 
 - (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-    self.ballSpeedX = kBallSpeedXConstant;
-    self.ballSpeedY = kBallSpeedYConstant;
-    self.time = 0;
+    if (buttonIndex == 0) {
+        self.ballSpeedX = kBallSpeedXConstant;
+        self.ballSpeedY = kBallSpeedYConstant;
+        self.time = 0;
+    } else {
+        [self quit:self];
+    }
 }
 
 @end

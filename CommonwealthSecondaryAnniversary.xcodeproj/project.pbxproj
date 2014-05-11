@@ -28,6 +28,7 @@
 		551B85F51906C0C600A340C8 /* CSAHeritageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551B85F41906C0C600A340C8 /* CSAHeritageViewController.m */; };
 		554110761906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */; };
 		5541107A1906C85B0090B9E6 /* CSAExperiencesFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */; };
+		55442B9F191F6F790053B526 /* css-development-team.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55442B9E191F6F790053B526 /* css-development-team.jpg */; };
 		5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5598C2741907596800992CC3 /* QuizMedia.xcassets */; };
 		55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */; };
 		55BA8CA81906CF1A000D5F69 /* CSAFirstQnViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CA71906CF1A000D5F69 /* CSAFirstQnViewController.m */; };
@@ -39,6 +40,7 @@
 		55BA8CBA1906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CB91906D6DB000D5F69 /* CSAFlappyBirdGameViewController.m */; };
 		55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */; };
 		55BA8CBF1906DE11000D5F69 /* CSACreditsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */; };
+		869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869394071907ABC800D1C8FF /* PongGame.xcassets */; };
 		869E3A911907AE7800C7FF95 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A791907AE7800C7FF95 /* 1.jpg */; };
 		869E3A921907AE7800C7FF95 /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A7A1907AE7800C7FF95 /* 10.jpg */; };
 		869E3A931907AE7800C7FF95 /* 11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A7B1907AE7800C7FF95 /* 11.jpg */; };
@@ -63,21 +65,14 @@
 		869E3AA61907AE7800C7FF95 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A8E1907AE7800C7FF95 /* 7.jpg */; };
 		869E3AA71907AE7800C7FF95 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A8F1907AE7800C7FF95 /* 8.jpg */; };
 		869E3AA81907AE7800C7FF95 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3A901907AE7800C7FF95 /* 9.jpg */; };
-		86BC11E91907B493006BDD8A /* CSAHeritageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */; };
-		86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */; };
-		86BC11EE1907BAF4006BDD8A /* values.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86BC11ED1907BAF4006BDD8A /* values.jpg */; };
-		869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 869394071907ABC800D1C8FF /* PongGame.xcassets */; };
 		869E3AAE1907BDD000C7FF95 /* 26.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AA91907BDD000C7FF95 /* 26.jpg */; };
 		869E3AAF1907BDD000C7FF95 /* 27.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAA1907BDD000C7FF95 /* 27.jpg */; };
 		869E3AB01907BDD000C7FF95 /* 28.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAB1907BDD000C7FF95 /* 28.jpg */; };
 		869E3AB11907BDD000C7FF95 /* 29.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAC1907BDD000C7FF95 /* 29.jpg */; };
 		869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AAD1907BDD000C7FF95 /* 30.jpg */; };
 		869E3AB41907BE9900C7FF95 /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 869E3AB31907BE9900C7FF95 /* unnamed.jpg */; };
-		86F399DE1907C02500C34D39 /* nnsch2834e_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */; };
-		86F399E01907C09900C34D39 /* CommonwealthLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */; };
-		86F399E21907C64300C34D39 /* 18486840.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E11907C64300C34D39 /* 18486840.JPG */; };
-		86F399E41907C76300C34D39 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E31907C76300C34D39 /* 2.jpg */; };
-		86F399E61907C76D00C34D39 /* mrloh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86F399E51907C76D00C34D39 /* mrloh.jpg */; };
+		86BC11E91907B493006BDD8A /* CSAHeritageThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */; };
+		86BC11EC1907B5FA006BDD8A /* CSAHeritageSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +116,7 @@
 		554110751906C5EB0090B9E6 /* ExperiencesStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ExperiencesStoryboard.storyboard; sourceTree = "<group>"; };
 		554110781906C85B0090B9E6 /* CSAExperiencesFirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAExperiencesFirstViewController.h; sourceTree = "<group>"; };
 		554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAExperiencesFirstViewController.m; sourceTree = "<group>"; };
+		55442B9E191F6F790053B526 /* css-development-team.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "css-development-team.jpg"; sourceTree = "<group>"; };
 		5598C2741907596800992CC3 /* QuizMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = QuizMedia.xcassets; sourceTree = "<group>"; };
 		55BA8CA31906CDD9000D5F69 /* QuizStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = QuizStoryboard.storyboard; sourceTree = "<group>"; };
 		55BA8CA61906CF1A000D5F69 /* CSAFirstQnViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAFirstQnViewController.h; sourceTree = "<group>"; };
@@ -137,6 +133,7 @@
 		55BA8CBB1906D720000D5F69 /* FlappyBirdGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlappyBirdGame.xcassets; sourceTree = "<group>"; };
 		55BA8CBD1906DE11000D5F69 /* CSACreditsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSACreditsViewController.h; sourceTree = "<group>"; };
 		55BA8CBE1906DE11000D5F69 /* CSACreditsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSACreditsViewController.m; sourceTree = "<group>"; };
+		869394071907ABC800D1C8FF /* PongGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PongGame.xcassets; sourceTree = "<group>"; };
 		869E3A791907AE7800C7FF95 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		869E3A7A1907AE7800C7FF95 /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
 		869E3A7B1907AE7800C7FF95 /* 11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 11.jpg; sourceTree = "<group>"; };
@@ -161,23 +158,16 @@
 		869E3A8E1907AE7800C7FF95 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
 		869E3A8F1907AE7800C7FF95 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
 		869E3A901907AE7800C7FF95 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
-		86BC11E71907B493006BDD8A /* CSAHeritageThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageThirdViewController.h; sourceTree = "<group>"; };
-		86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageThirdViewController.m; sourceTree = "<group>"; };
-		86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageSecondViewController.h; sourceTree = "<group>"; };
-		86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageSecondViewController.m; sourceTree = "<group>"; };
-		86BC11ED1907BAF4006BDD8A /* values.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = values.jpg; path = ../../../Downloads/values.jpg; sourceTree = "<group>"; };
-		869394071907ABC800D1C8FF /* PongGame.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = PongGame.xcassets; sourceTree = "<group>"; };
 		869E3AA91907BDD000C7FF95 /* 26.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 26.jpg; sourceTree = "<group>"; };
 		869E3AAA1907BDD000C7FF95 /* 27.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 27.jpg; sourceTree = "<group>"; };
 		869E3AAB1907BDD000C7FF95 /* 28.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 28.jpg; sourceTree = "<group>"; };
 		869E3AAC1907BDD000C7FF95 /* 29.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 29.jpg; sourceTree = "<group>"; };
 		869E3AAD1907BDD000C7FF95 /* 30.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 30.jpg; sourceTree = "<group>"; };
 		869E3AB31907BE9900C7FF95 /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = unnamed.jpg; sourceTree = "<group>"; };
-		86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nnsch2834e_0.jpg; path = ../../nnsch2834e_0.jpg; sourceTree = "<group>"; };
-		86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CommonwealthLogo.jpg; path = ../../CommonwealthLogo.jpg; sourceTree = "<group>"; };
-		86F399E11907C64300C34D39 /* 18486840.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 18486840.JPG; path = ../../18486840.JPG; sourceTree = "<group>"; };
-		86F399E31907C76300C34D39 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 2.jpg; path = ../../2.jpg; sourceTree = "<group>"; };
-		86F399E51907C76D00C34D39 /* mrloh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mrloh.jpg; path = ../../mrloh.jpg; sourceTree = "<group>"; };
+		86BC11E71907B493006BDD8A /* CSAHeritageThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageThirdViewController.h; sourceTree = "<group>"; };
+		86BC11E81907B493006BDD8A /* CSAHeritageThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageThirdViewController.m; sourceTree = "<group>"; };
+		86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CSAHeritageSecondViewController.h; sourceTree = "<group>"; };
+		86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CSAHeritageSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				551B85B41906B1C100A340C8 /* CommonwealthSecondaryAnniversary */,
+				55442B9D191F6F790053B526 /* Resources */,
 				551B85D31906B1C100A340C8 /* CommonwealthSecondaryAnniversaryTests */,
 				551B85AD1906B1C000A340C8 /* Frameworks */,
 				551B85AC1906B1C000A340C8 /* Products */,
@@ -297,11 +288,6 @@
 		551B85F21906BFFE00A340C8 /* Heritage */ = {
 			isa = PBXGroup;
 			children = (
-				86F399E51907C76D00C34D39 /* mrloh.jpg */,
-				86F399E31907C76300C34D39 /* 2.jpg */,
-				86F399E11907C64300C34D39 /* 18486840.JPG */,
-				86F399DF1907C09900C34D39 /* CommonwealthLogo.jpg */,
-				86F399DD1907C02500C34D39 /* nnsch2834e_0.jpg */,
 				551B85F01906BFF900A340C8 /* HeritageStoryboard.storyboard */,
 				86BC11EA1907B5FA006BDD8A /* CSAHeritageSecondViewController.h */,
 				86BC11EB1907B5FA006BDD8A /* CSAHeritageSecondViewController.m */,
@@ -342,6 +328,15 @@
 				554110791906C85B0090B9E6 /* CSAExperiencesFirstViewController.m */,
 			);
 			name = Experiences;
+			sourceTree = "<group>";
+		};
+		55442B9D191F6F790053B526 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55442B9E191F6F790053B526 /* css-development-team.jpg */,
+			);
+			name = Resources;
+			path = CommonwealthSecondaryAnniversary/Resources;
 			sourceTree = "<group>";
 		};
 		55BA8CA51906CDDF000D5F69 /* Quiz */ = {
@@ -533,23 +528,19 @@
 				869E3AA31907AE7800C7FF95 /* 4.jpg in Resources */,
 				869E3A941907AE7800C7FF95 /* 12.jpg in Resources */,
 				869E3AB21907BDD000C7FF95 /* 30.jpg in Resources */,
-				86F399E01907C09900C34D39 /* CommonwealthLogo.jpg in Resources */,
 				55BA8CBC1906D720000D5F69 /* FlappyBirdGame.xcassets in Resources */,
-				86F399E41907C76300C34D39 /* 2.jpg in Resources */,
 				551B85F11906BFF900A340C8 /* HeritageStoryboard.storyboard in Resources */,
-				86F399E21907C64300C34D39 /* 18486840.JPG in Resources */,
+				55442B9F191F6F790053B526 /* css-development-team.jpg in Resources */,
 				55BA8CB01906D333000D5F69 /* PongGameStoryboard.storyboard in Resources */,
 				869E3A921907AE7800C7FF95 /* 10.jpg in Resources */,
 				869E3A991907AE7800C7FF95 /* 17.jpg in Resources */,
 				869E3AA61907AE7800C7FF95 /* 7.jpg in Resources */,
 				551B85B91906B1C100A340C8 /* InfoPlist.strings in Resources */,
-				86F399E61907C76D00C34D39 /* mrloh.jpg in Resources */,
 				55BA8CA41906CDD9000D5F69 /* QuizStoryboard.storyboard in Resources */,
 				55BA8CB61906D698000D5F69 /* FlappyBirdGameStoryboard.storyboard in Resources */,
 				869E3A9F1907AE7800C7FF95 /* 22.jpg in Resources */,
 				551B85C21906B1C100A340C8 /* Main.storyboard in Resources */,
 				869394081907ABC800D1C8FF /* PongGame.xcassets in Resources */,
-				86F399DE1907C02500C34D39 /* nnsch2834e_0.jpg in Resources */,
 				5598C2751907596800992CC3 /* QuizMedia.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

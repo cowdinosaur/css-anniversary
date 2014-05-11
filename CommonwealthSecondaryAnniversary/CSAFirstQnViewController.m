@@ -23,11 +23,16 @@
     return self;
 }
 
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.resultLabel.text = @"";
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
-    self.resultLabel.text = @"";
 }
 
 - (void)didReceiveMemoryWarning
@@ -37,12 +42,16 @@
 }
 
 - (IBAction)wrongTapped:(id)sender {
-    NSLog(@"Tapped wrong button");
     self.resultLabel.text = @"Wrong. Try again";
 }
 
 - (IBAction)correctTapped:(id)sender {
-    NSLog(@"You are right");
     self.resultLabel.text = @"You are right!!!!";
+}
+
+- (IBAction)goHome:(id)sender {
+    
+    NSArray *vcs = self.navigationController.viewControllers;
+    [self.navigationController setViewControllers:@[[vcs objectAtIndex:0], [vcs objectAtIndex:1] ]animated:YES];
 }
 @end

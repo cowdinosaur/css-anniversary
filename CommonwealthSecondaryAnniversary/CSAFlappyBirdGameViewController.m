@@ -79,7 +79,13 @@ const float KGap = 150;
 }
 - (void)alertView:(UIAlertView *)alerView didDismissWithButtonIndex:(NSInteger)buttonIndex
 {
-    [self performSelector:@selector(reset) withObject:nil afterDelay:0.5];
+
+    if (buttonIndex == 0) {
+        [self performSelector:@selector(reset) withObject:nil afterDelay:0.5];
+    } else {
+        [self quit:self];
+    }
+
 }
 - (void)reset
 {
@@ -126,7 +132,7 @@ const float KGap = 150;
         {
             [self.animator removeAllBehaviors];
             
-            [[[UIAlertView alloc] initWithTitle:@ "Game Over" message:nil delegate:self cancelButtonTitle:@"Again" otherButtonTitles: nil] show];
+            [[[UIAlertView alloc] initWithTitle:@ "Game Over" message:nil delegate:self cancelButtonTitle:@"Again" otherButtonTitles: @"Quit", nil] show];
             
             break;
         }
@@ -180,5 +186,11 @@ const float KGap = 150;
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)quit:(id)sender {
+    [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+
 
 @end

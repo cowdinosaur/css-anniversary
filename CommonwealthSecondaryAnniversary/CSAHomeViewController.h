@@ -14,6 +14,7 @@
 - (IBAction)gotoGallery:(id)sender;
 - (IBAction)gotoExperiences:(id)sender;
 - (IBAction)gotoQuiz:(id)sender;
+- (IBAction)gotoFacts:(id)sender;
 - (IBAction)gotoPongGame:(id)sender;
 - (IBAction)gotoFlappyBirdGame:(id)sender;
 

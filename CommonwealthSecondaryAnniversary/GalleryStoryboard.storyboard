@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Wyc-zb-5uW">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Wyc-zb-5uW">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -23,15 +23,15 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="JVc-1X-ONc">
-                                <rect key="frame" x="53" y="42" width="240" height="128"/>
+                                <rect key="frame" x="53" y="60" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="17.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="X76-1Y-34q">
-                                <rect key="frame" x="53" y="303" width="240" height="128"/>
+                                <rect key="frame" x="53" y="252" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-ZL-ssJ">
-                                <rect key="frame" x="157" y="494" width="32" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yve-ZL-ssJ">
+                                <rect key="frame" x="157" y="518" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -40,18 +40,32 @@
                                     <segue destination="9xs-yf-hra" kind="push" id="stM-xO-zCn"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lqr-os-hJ4">
+                                <rect key="frame" x="258" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="Wyc-zb-5uW" eventType="touchUpInside" id="nxF-3f-fsR"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Yve-ZL-ssJ" secondAttribute="bottom" constant="20" id="9c4-tm-l7h"/>
+                            <constraint firstAttribute="bottom" secondItem="lqr-os-hJ4" secondAttribute="bottom" constant="20" id="J7A-79-VTF"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uA3-GC-mSe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1517" y="-627"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="qGG-cZ-uTG">
             <objects>
-                <viewController id="qpX-qp-gn1" sceneMemberID="viewController">
+                <viewController id="qpX-qp-gn1" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jCy-uh-Uhi"/>
                         <viewControllerLayoutGuide type="bottom" id="Uaj-I3-I8i"/>
@@ -61,15 +75,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="3.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xYs-g6-leM">
-                                <rect key="frame" x="40" y="43" width="240" height="128"/>
+                                <rect key="frame" x="40" y="58" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="18T-v0-jxO">
-                                <rect key="frame" x="40" y="306" width="240" height="128"/>
+                                <rect key="frame" x="40" y="244" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xne-un-m4i">
-                                <rect key="frame" x="137" y="489" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xne-un-m4i">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -78,8 +92,22 @@
                                     <segue destination="hpW-aC-ogR" kind="push" id="Rfv-Po-Nzq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Iv-Bt-2Ij">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="qpX-qp-gn1" eventType="touchUpInside" id="WMi-3P-KMc"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="xne-un-m4i" secondAttribute="bottom" constant="20" id="7fP-Tl-aOm"/>
+                            <constraint firstAttribute="bottom" secondItem="4Iv-Bt-2Ij" secondAttribute="bottom" constant="20" id="GgV-fz-uKF"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Akx-81-avB"/>
                 </viewController>
@@ -87,10 +115,10 @@
             </objects>
             <point key="canvasLocation" x="-1501" y="149"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="s6f-b9-HIT">
             <objects>
-                <viewController id="56A-F4-ibA" sceneMemberID="viewController">
+                <viewController id="56A-F4-ibA" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="e1z-iu-1QA"/>
                         <viewControllerLayoutGuide type="bottom" id="xxn-ia-oMN"/>
@@ -100,15 +128,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="f48-RJ-5ep">
-                                <rect key="frame" x="54" y="100" width="240" height="128"/>
+                                <rect key="frame" x="40" y="79" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="9.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Mfe-Fb-ngW">
-                                <rect key="frame" x="54" y="346" width="240" height="128"/>
+                                <rect key="frame" x="40" y="269" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk0-Qm-u1e">
-                                <rect key="frame" x="151" y="503" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mk0-Qm-u1e">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -117,8 +145,22 @@
                                     <segue destination="ojv-pw-9eW" kind="push" id="wFB-0i-dyR"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y1t-sY-uaM">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="56A-F4-ibA" eventType="touchUpInside" id="bm0-uK-J7m"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mk0-Qm-u1e" secondAttribute="bottom" constant="20" id="DtX-Ke-ylC"/>
+                            <constraint firstAttribute="bottom" secondItem="Y1t-sY-uaM" secondAttribute="bottom" constant="20" id="xVk-R5-w9k"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Htw-lv-h9T"/>
                 </viewController>
@@ -126,10 +168,10 @@
             </objects>
             <point key="canvasLocation" x="-1517" y="865"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="Ogi-wi-U5z">
             <objects>
-                <viewController id="ojv-pw-9eW" sceneMemberID="viewController">
+                <viewController id="ojv-pw-9eW" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2WD-ee-qIM"/>
                         <viewControllerLayoutGuide type="bottom" id="NRK-7y-EFR"/>
@@ -139,15 +181,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2sQ-Rw-KAo">
-                                <rect key="frame" x="40" y="73" width="240" height="128"/>
+                                <rect key="frame" x="40" y="43" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="L0P-w9-qak">
-                                <rect key="frame" x="40" y="307" width="240" height="128"/>
+                                <rect key="frame" x="40" y="237" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWm-GA-TV8">
-                                <rect key="frame" x="137" y="478" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWm-GA-TV8">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -156,8 +198,22 @@
                                     <segue destination="jRG-n1-vPe" kind="push" id="JQK-ds-Y2q"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HYE-bb-pWb">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="ojv-pw-9eW" eventType="touchUpInside" id="z71-SE-qQx"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="HYE-bb-pWb" secondAttribute="bottom" constant="20" id="Ybs-LO-gYr"/>
+                            <constraint firstAttribute="bottom" secondItem="ZWm-GA-TV8" secondAttribute="bottom" constant="20" id="gFv-He-OkT"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="hL0-Qf-IEb"/>
                 </viewController>
@@ -165,10 +221,10 @@
             </objects>
             <point key="canvasLocation" x="-973" y="873"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="yqY-Al-ai6">
             <objects>
-                <viewController id="jRG-n1-vPe" sceneMemberID="viewController">
+                <viewController id="jRG-n1-vPe" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="YVR-eH-ClB"/>
                         <viewControllerLayoutGuide type="bottom" id="cGU-4z-UiJ"/>
@@ -177,8 +233,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCI-Tl-CHs">
-                                <rect key="frame" x="137" y="460" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eCI-Tl-CHs">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -188,15 +244,29 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="26.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ken-Za-fFq">
-                                <rect key="frame" x="20" y="114" width="240" height="128"/>
+                                <rect key="frame" x="40" y="54" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="27.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="B9h-EV-1ED">
-                                <rect key="frame" x="20" y="318" width="240" height="128"/>
+                                <rect key="frame" x="40" y="249" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3We-TQ-nPk">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="jRG-n1-vPe" eventType="touchUpInside" id="95o-NR-iwQ"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="3We-TQ-nPk" secondAttribute="bottom" constant="20" id="6TF-D5-gvR"/>
+                            <constraint firstAttribute="bottom" secondItem="eCI-Tl-CHs" secondAttribute="bottom" constant="20" id="lN1-MK-i4x"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="NtE-7G-cAA"/>
                 </viewController>
@@ -204,10 +274,10 @@
             </objects>
             <point key="canvasLocation" x="-517" y="857"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="3Vi-6y-WMJ">
             <objects>
-                <viewController id="gkw-QV-X9R" sceneMemberID="viewController">
+                <viewController id="gkw-QV-X9R" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ceW-QB-Xh5"/>
                         <viewControllerLayoutGuide type="bottom" id="CCN-9q-FFZ"/>
@@ -216,8 +286,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YzR-lF-htd">
-                                <rect key="frame" x="137" y="477" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YzR-lF-htd">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -227,15 +297,29 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="28.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="s2s-Ta-aiQ">
-                                <rect key="frame" x="40" y="86" width="240" height="128"/>
+                                <rect key="frame" x="40" y="73" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="29.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jYS-6v-RRs">
-                                <rect key="frame" x="40" y="301" width="240" height="128"/>
+                                <rect key="frame" x="40" y="269" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mwx-Mz-h7e">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="gkw-QV-X9R" eventType="touchUpInside" id="lRA-Pr-0sY"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mwx-Mz-h7e" secondAttribute="bottom" constant="20" id="4AW-fM-A3h"/>
+                            <constraint firstAttribute="bottom" secondItem="YzR-lF-htd" secondAttribute="bottom" constant="20" id="JIg-2s-fXC"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="8k1-ot-WZT"/>
                 </viewController>
@@ -243,10 +327,10 @@
             </objects>
             <point key="canvasLocation" x="-73" y="889"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="aoh-cW-ulH">
             <objects>
-                <viewController id="IzX-PP-62s" sceneMemberID="viewController">
+                <viewController id="IzX-PP-62s" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="bqL-Mn-TRy"/>
                         <viewControllerLayoutGuide type="bottom" id="Rwi-x2-ZzM"/>
@@ -255,23 +339,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="teq-AY-cN5">
-                                <rect key="frame" x="122" y="456" width="42" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="BACK">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="30.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HPg-cX-KW8">
                                 <rect key="frame" x="40" y="60" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="unnamed.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="YNF-WT-ahM">
-                                <rect key="frame" x="40" y="280" width="240" height="128"/>
+                                <rect key="frame" x="40" y="250" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dlj-wx-6vW">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="IzX-PP-62s" eventType="touchUpInside" id="uYh-VC-72D"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="dlj-wx-6vW" secondAttribute="bottom" constant="20" id="vAY-5m-o9f"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="JEj-Uv-GQD"/>
                 </viewController>
@@ -279,10 +369,10 @@
             </objects>
             <point key="canvasLocation" x="435" y="893"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="emr-hd-LZa">
             <objects>
-                <viewController id="hpW-aC-ogR" sceneMemberID="viewController">
+                <viewController id="hpW-aC-ogR" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dvq-X6-F3k"/>
                         <viewControllerLayoutGuide type="bottom" id="0Et-iu-NLO"/>
@@ -292,15 +382,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="20.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="nCw-uk-NQW">
-                                <rect key="frame" x="40" y="89" width="240" height="128"/>
+                                <rect key="frame" x="40" y="64" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="24.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yiF-LJ-xiZ">
-                                <rect key="frame" x="40" y="328" width="240" height="128"/>
+                                <rect key="frame" x="40" y="251" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrb-wg-k7T">
-                                <rect key="frame" x="137" y="489" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lrb-wg-k7T">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -309,8 +399,22 @@
                                     <segue destination="Z0E-HX-30X" kind="push" id="4I4-NQ-bK8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdr-op-S7w">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="hpW-aC-ogR" eventType="touchUpInside" id="zLp-be-tXp"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Lrb-wg-k7T" secondAttribute="bottom" constant="20" id="2dh-vR-upR"/>
+                            <constraint firstAttribute="bottom" secondItem="qdr-op-S7w" secondAttribute="bottom" constant="20" id="7so-ZZ-7MO"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ttf-fc-18c"/>
                 </viewController>
@@ -318,10 +422,10 @@
             </objects>
             <point key="canvasLocation" x="-1009" y="149"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="0hW-4o-tMN">
             <objects>
-                <viewController id="Z0E-HX-30X" sceneMemberID="viewController">
+                <viewController id="Z0E-HX-30X" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="oaO-Ba-BNs"/>
                         <viewControllerLayoutGuide type="bottom" id="dky-iL-cvS"/>
@@ -331,15 +435,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="11.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PuR-86-Ey9">
-                                <rect key="frame" x="40" y="109" width="240" height="128"/>
+                                <rect key="frame" x="40" y="66" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="15.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="itA-36-Efl">
-                                <rect key="frame" x="40" y="295" width="240" height="128"/>
+                                <rect key="frame" x="40" y="257" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf8-Ud-nK2">
-                                <rect key="frame" x="137" y="490" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zf8-Ud-nK2">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -348,8 +452,22 @@
                                     <segue destination="mR2-tp-Cjz" kind="push" id="PLb-nt-qsL"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RY0-Zl-Rde">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="Z0E-HX-30X" eventType="touchUpInside" id="Iv0-Bs-m8O"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Zf8-Ud-nK2" secondAttribute="bottom" constant="20" id="HOj-xW-AM8"/>
+                            <constraint firstAttribute="bottom" secondItem="RY0-Zl-Rde" secondAttribute="bottom" constant="20" id="grJ-Fc-Yzd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="TeL-xM-jJR"/>
                 </viewController>
@@ -357,10 +475,10 @@
             </objects>
             <point key="canvasLocation" x="-517" y="145"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="lT1-wD-U4f">
             <objects>
-                <viewController id="mR2-tp-Cjz" sceneMemberID="viewController">
+                <viewController id="mR2-tp-Cjz" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qWr-Z6-2Qv"/>
                         <viewControllerLayoutGuide type="bottom" id="heh-C0-0tf"/>
@@ -370,15 +488,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="23.gif" translatesAutoresizingMaskIntoConstraints="NO" id="DUQ-Lr-L5o">
-                                <rect key="frame" x="40" y="307" width="240" height="128"/>
+                                <rect key="frame" x="40" y="277" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="22.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fLX-Nb-Zc5">
-                                <rect key="frame" x="40" y="97" width="240" height="128"/>
+                                <rect key="frame" x="40" y="72" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-fj-CRU">
-                                <rect key="frame" x="137" y="484" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nd4-fj-CRU">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -387,8 +505,22 @@
                                     <segue destination="YVf-H4-Ht0" kind="push" id="tIh-DZ-qYF"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e7d-Sv-hVd">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="mR2-tp-Cjz" eventType="touchUpInside" id="UbP-qt-sx9"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Nd4-fj-CRU" secondAttribute="bottom" constant="20" id="gyP-Rr-O7X"/>
+                            <constraint firstAttribute="bottom" secondItem="e7d-Sv-hVd" secondAttribute="bottom" constant="20" id="mQp-4Z-DZ7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Zo1-1z-NW4"/>
                 </viewController>
@@ -396,10 +528,10 @@
             </objects>
             <point key="canvasLocation" x="-89" y="141"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="PP6-kN-9AN">
             <objects>
-                <viewController id="YVf-H4-Ht0" sceneMemberID="viewController">
+                <viewController id="YVf-H4-Ht0" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="i3W-em-VjD"/>
                         <viewControllerLayoutGuide type="bottom" id="pzC-VH-jr1"/>
@@ -409,15 +541,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="5.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="LMy-DY-ERi">
-                                <rect key="frame" x="51" y="336" width="240" height="128"/>
+                                <rect key="frame" x="40" y="264" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Azz-Fs-cAh">
-                                <rect key="frame" x="60" y="131" width="240" height="128"/>
+                                <rect key="frame" x="40" y="70" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-PR-MWa">
-                                <rect key="frame" x="148" y="499" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRb-PR-MWa">
+                                <rect key="frame" x="148" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -426,8 +558,22 @@
                                     <segue destination="56A-F4-ibA" kind="push" id="PSB-o6-ash"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uea-gO-Jea">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="YVf-H4-Ht0" eventType="touchUpInside" id="P6x-27-EYi"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="XRb-PR-MWa" secondAttribute="bottom" constant="20" id="d86-2U-5fK"/>
+                            <constraint firstAttribute="bottom" secondItem="uea-gO-Jea" secondAttribute="bottom" constant="20" id="ynz-gC-eJ4"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qj0-vi-LMy"/>
                 </viewController>
@@ -435,10 +581,10 @@
             </objects>
             <point key="canvasLocation" x="403" y="149"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="1fT-07-4t2">
             <objects>
-                <viewController id="9xs-yf-hra" sceneMemberID="viewController">
+                <viewController id="9xs-yf-hra" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mPF-tg-Ide"/>
                         <viewControllerLayoutGuide type="bottom" id="RGR-mG-A28"/>
@@ -448,15 +594,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="14.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="lTc-E4-IVF">
-                                <rect key="frame" x="40" y="322" width="240" height="128"/>
+                                <rect key="frame" x="40" y="242" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="6.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8S5-5r-hI2">
-                                <rect key="frame" x="40" y="92" width="240" height="128"/>
+                                <rect key="frame" x="40" y="52" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-mS-Ujm">
-                                <rect key="frame" x="137" y="498" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UiW-mS-Ujm">
+                                <rect key="frame" x="141" y="515" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -465,8 +611,22 @@
                                     <segue destination="5xu-u4-IY5" kind="push" id="Nut-vR-dg6"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNt-rA-ZQ8">
+                                <rect key="frame" x="262" y="515" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="9xs-yf-hra" eventType="touchUpInside" id="Km1-Si-lGa"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="UiW-mS-Ujm" secondAttribute="bottom" constant="23" id="DQV-cl-pVH"/>
+                            <constraint firstAttribute="bottom" secondItem="sNt-rA-ZQ8" secondAttribute="bottom" constant="23" id="Eyn-tE-sH3"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KQX-Uv-grD"/>
                 </viewController>
@@ -474,10 +634,10 @@
             </objects>
             <point key="canvasLocation" x="-1034" y="-619"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="G8B-6c-weN">
             <objects>
-                <viewController id="5xu-u4-IY5" sceneMemberID="viewController">
+                <viewController id="5xu-u4-IY5" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ph6-F9-fTG"/>
                         <viewControllerLayoutGuide type="bottom" id="Ji6-Z2-f6T"/>
@@ -487,15 +647,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="4.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dcx-tF-hiM">
-                                <rect key="frame" x="40" y="333" width="240" height="128"/>
+                                <rect key="frame" x="40" y="238" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="18.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xov-8T-jhI">
                                 <rect key="frame" x="40" y="52" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bux-Wa-5z8">
-                                <rect key="frame" x="137" y="503" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bux-Wa-5z8">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -504,8 +664,22 @@
                                     <segue destination="f44-e7-Nrw" kind="push" id="3Uz-yv-5tb"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DWZ-qR-GAG">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="5xu-u4-IY5" eventType="touchUpInside" id="eDk-P0-WZ8"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bux-Wa-5z8" secondAttribute="bottom" constant="20" id="B6k-Vk-0EF"/>
+                            <constraint firstAttribute="bottom" secondItem="DWZ-qR-GAG" secondAttribute="bottom" constant="20" id="dQG-Ks-pUH"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="qcJ-kW-6Vi"/>
                 </viewController>
@@ -513,10 +687,10 @@
             </objects>
             <point key="canvasLocation" x="-541" y="-619"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="hie-un-8EC">
             <objects>
-                <viewController id="f44-e7-Nrw" sceneMemberID="viewController">
+                <viewController id="f44-e7-Nrw" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="QWo-Tn-77n"/>
                         <viewControllerLayoutGuide type="bottom" id="ORB-RP-Vsf"/>
@@ -530,11 +704,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="19.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v2b-eq-oll">
-                                <rect key="frame" x="40" y="312" width="240" height="128"/>
+                                <rect key="frame" x="40" y="233" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPe-b7-ddy">
-                                <rect key="frame" x="137" y="495" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FPe-b7-ddy">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -543,8 +717,22 @@
                                     <segue destination="zBq-UK-Ny1" kind="push" id="VQ4-FJ-PFq"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQE-ey-rvL">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="f44-e7-Nrw" eventType="touchUpInside" id="WWS-7D-VsF"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="FPe-b7-ddy" secondAttribute="bottom" constant="20" id="DMF-YY-1aX"/>
+                            <constraint firstAttribute="bottom" secondItem="uQE-ey-rvL" secondAttribute="bottom" constant="20" id="L07-uC-Z3o"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="lmr-Kz-TLC"/>
                 </viewController>
@@ -552,10 +740,10 @@
             </objects>
             <point key="canvasLocation" x="-95" y="-619"/>
         </scene>
-        <!--View Controller-->
+        <!--Gallery View Controller-->
         <scene sceneID="V7Y-x0-lsd">
             <objects>
-                <viewController id="zBq-UK-Ny1" sceneMemberID="viewController">
+                <viewController id="zBq-UK-Ny1" customClass="CSAGalleryViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nWL-UJ-NSW"/>
                         <viewControllerLayoutGuide type="bottom" id="fFk-Xu-jt2"/>
@@ -565,15 +753,15 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="8.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zba-Oj-1Re">
-                                <rect key="frame" x="40" y="70" width="240" height="128"/>
+                                <rect key="frame" x="40" y="56" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="2CS-i8-5Ib">
-                                <rect key="frame" x="40" y="294" width="240" height="128"/>
+                                <rect key="frame" x="40" y="242" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9G-OF-35V">
-                                <rect key="frame" x="147" y="493" width="39" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9G-OF-35V">
+                                <rect key="frame" x="141" y="518" width="39" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="NEXT">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -582,8 +770,22 @@
                                     <segue destination="qpX-qp-gn1" kind="push" id="xYg-wq-W1P"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gzq-GC-Wp1">
+                                <rect key="frame" x="259" y="518" width="41" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Home">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="zBq-UK-Ny1" eventType="touchUpInside" id="QCa-1E-TLg"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="gzq-GC-Wp1" secondAttribute="bottom" constant="20" id="IVg-kC-CbO"/>
+                            <constraint firstAttribute="bottom" secondItem="k9G-OF-35V" secondAttribute="bottom" constant="20" id="LI2-9k-Bw7"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="S9K-2A-2N1"/>
                 </viewController>

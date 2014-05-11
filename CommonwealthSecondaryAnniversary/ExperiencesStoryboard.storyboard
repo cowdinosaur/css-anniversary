@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ozg-4a-M5U">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="ozg-4a-M5U">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Experiences First View Controller-->
@@ -16,10 +16,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="WiB-oD-1wx">
-                                <rect key="frame" x="141" y="531" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                             <textField opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Commonwealth Secondary School" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kEZ-SC-ILO">
                                 <rect key="frame" x="20" y="268" width="280" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -27,17 +23,24 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKj-Wd-l9M">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="NX4-WM-QA4" kind="push" id="oT0-yf-5mM"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.17865598939999999" green="0.59483096489999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ckn-KL-wZ6">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="yxk-vY-dOt">
-                            <connections>
-                                <segue destination="NX4-WM-QA4" kind="push" id="gYX-VO-1Qe"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="yxk-vY-dOt"/>
                     </navigationItem>
-                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x4l-qQ-krj" sceneMemberID="firstResponder"/>
             </objects>
@@ -55,10 +58,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="DAj-LF-SBW">
-                                <rect key="frame" x="141" y="531" width="39" height="37"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </pageControl>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Blue for infinite resourcefulness." textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4xj-Ed-G4x">
                                 <rect key="frame" x="20" y="276" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -87,15 +86,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gR-Ms-Yse">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="9g9-yF-bJ7" kind="push" id="vj7-f9-vtK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.66073538310000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZCJ-Wh-puq">
-                        <barButtonItem key="rightBarButtonItem" title="Next" id="9KP-uF-RNT">
-                            <connections>
-                                <segue destination="9g9-yF-bJ7" kind="push" id="MJH-Uh-mS1"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Next" id="9KP-uF-RNT"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oeh-F2-kIE" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -122,24 +128,27 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nnsch2834e_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="h0o-b1-RMb">
-                                <rect key="frame" x="0.0" y="413" width="320" height="160"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="maB-eF-SD1">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="mOk-Cb-wrJ" kind="push" id="rJh-H6-gmi"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.66073538310000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="tDT-Gf-FzK">
-                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="y2Q-Ud-4KV">
-                            <connections>
-                                <segue destination="mOk-Cb-wrJ" kind="push" id="0Vc-uW-LjP"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="y2Q-Ud-4KV"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jj6-Wa-nPh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="914" y="-43"/>
+            <point key="canvasLocation" x="921" y="-43"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5NP-5H-iic">
@@ -157,7 +166,7 @@
                                 <rect key="frame" x="0.0" y="111" width="320" height="348"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">My best experience in Commonwealth was when I was in the Secondary 4 &amp; 5 camps this year. My birthday was the first day of the camp and we had high elements programme on that day. Naturally,the fear of heights is my biggest failing. One part of the event was to climb a 3 storey high tree trunk (with small metal steps on them) and then leaping to grab a trapeze. Astoundingly,everyone for the first time,took up the challenge,so I did too. I forced myself to overcome my fear of heights and went for it. My friends cheered for me as I accomplished the challenge. I had finally overcome my greatest fear.</mutableString>
+                                <string key="text">My best experience in Commonwealth was when I was in the Secondary 4 &amp; 5 camps this year. My birthday was the first day of the camp and we had high elements programme on that day. Naturally,the fear of heights is my biggest failing. One part of the event was to climb a 3 storey high tree trunk (with small metal steps on them) and then leaping to grab a trapeze. Astoundingly,everyone for the first time,took up the challenge,so I did too. I forced myself to overcome my fear of heights and went for it. My friends cheered for me as I accomplished the challenge. I had finally overcome my greatest fear.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -167,15 +176,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrq-hx-c9F">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="MsW-zV-uf7" kind="push" id="Ohe-4p-bb1"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.66073538310000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="vSC-cm-ZIm">
-                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="kBK-rt-tBG">
-                            <connections>
-                                <segue destination="MsW-zV-uf7" kind="push" id="lBq-GX-1lj"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="kBK-rt-tBG"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="o3z-Nw-aqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -198,7 +214,7 @@
                                 <rect key="frame" x="0.0" y="110" width="320" height="348"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">My most enjoyable experience in school was sports day during secondary 2. The Sport that i was in was volleyball. Its was pretty fun as i had piror expereince of volleyball in primary school. Traning was also required as the team has dedicated our free time into practice for the game and with that we climbed to the top few with our hard work.Also being in the team made me feel that i have acompolished a feat. I could not remember what position we were but the important thing was that we enjoyed ourselves playing the sport. Overall this experience was really enjoyable and beneficial in terms of building teamwork and communication skills.</mutableString>
+                                <string key="text">My most enjoyable experience in school was sports day during secondary 2. The Sport that i was in was volleyball. Its was pretty fun as i had piror expereince of volleyball in primary school. Traning was also required as the team has dedicated our free time into practice for the game and with that we climbed to the top few with our hard work.Also being in the team made me feel that i have acompolished a feat. I could not remember what position we were but the important thing was that we enjoyed ourselves playing the sport. Overall this experience was really enjoyable and beneficial in terms of building teamwork and communication skills.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -208,15 +224,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Lf-6J-K64">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="s94-CZ-zZb" kind="push" id="jR2-4V-B53"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.66073538310000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="lzb-H6-XVM">
-                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="h1z-1I-lxE">
-                            <connections>
-                                <segue destination="s94-CZ-zZb" kind="push" id="tJ1-tW-HOp"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="h1z-1I-lxE"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YOI-FF-J2V" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -249,15 +272,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3b6-lH-1gW">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="05e-Nh-I78" kind="push" id="bWx-tr-8dn"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.97826086960000003" green="0.66073538310000002" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="oVa-Ur-Wee">
-                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="qia-5G-f8v">
-                            <connections>
-                                <segue destination="05e-Nh-I78" kind="push" id="ePt-ls-naz"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Speak >" id="qia-5G-f8v"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="L1i-ev-MpS" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -280,7 +310,7 @@
                                 <rect key="frame" x="0.0" y="110" width="320" height="348"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <mutableString key="text">In the years I've been part of the Commonwealth family,I had experienced many triumphs and obstacles. Met many people that I would salute for their efforts and their one-in-a-million personalities. Met others that need no mentioning as they are unworthy. Nonetheless,this brings me or rather, everyone else, to experience the reality and face it head-on. The journey had been a long and meaningful one. Knowing that this year would mark the 50th Anniversary for Commonwealth Secondary School, I feel that it is honourable to be a part of this family,as this family had taught and shown to me the reality.</mutableString>
+                                <string key="text">In the years I've been part of the Commonwealth family,I had experienced many triumphs and obstacles. Met many people that I would salute for their efforts and their one-in-a-million personalities. Met others that need no mentioning as they are unworthy. Nonetheless,this brings me or rather, everyone else, to experience the reality and face it head-on. The journey had been a long and meaningful one. Knowing that this year would mark the 50th Anniversary for Commonwealth Secondary School, I feel that it is honourable to be a part of this family,as this family had taught and shown to me the reality.</string>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -297,15 +327,22 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amx-QY-dnI">
+                                <rect key="frame" x="263" y="20" width="32" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EM0-r3-mAl" kind="push" id="j6V-i2-QEo"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Din-fw-5Nq">
-                        <barButtonItem key="rightBarButtonItem" title="Anniversary >" id="HNr-ao-6gx">
-                            <connections>
-                                <segue destination="EM0-r3-mAl" kind="push" id="6b9-du-8D0"/>
-                            </connections>
-                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Anniversary >" id="HNr-ao-6gx"/>
                     </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gVa-wy-0Xr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -339,10 +376,17 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CommonwealthLogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ERF-UW-51b">
-                                <rect key="frame" x="135" y="384" width="50" height="46"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PhP-CG-kCM">
+                                <rect key="frame" x="268" y="20" width="32" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Next">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3Ex-GA-YXD" kind="push" id="j82-o6-9Ep"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -352,10 +396,10 @@
             </objects>
             <point key="canvasLocation" x="3166" y="-43"/>
         </scene>
-        <!--View Controller-->
+        <!--Experiences First View Controller-->
         <scene sceneID="oya-bZ-msM">
             <objects>
-                <viewController id="3Ex-GA-YXD" sceneMemberID="viewController">
+                <viewController id="3Ex-GA-YXD" customClass="CSAExperiencesFirstViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2Hv-Wt-CBT"/>
                         <viewControllerLayoutGuide type="bottom" id="VmT-co-g7j"/>
@@ -364,37 +408,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="18486840.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="qD2-JU-ihs">
-                                <rect key="frame" x="0.0" y="35" width="320" height="180"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mrloh.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="UEa-Kh-hLw">
-                                <rect key="frame" x="0.0" y="223" width="168" height="126"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="gUH-ke-xgj">
-                                <rect key="frame" x="0.0" y="357" width="320" height="198"/>
+                                <rect key="frame" x="0.0" y="175" width="320" height="198"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nnsch2834e_0.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="DWz-Th-tHv">
-                                <rect key="frame" x="176" y="222" width="144" height="127"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0zB-Ni-pPl">
+                                <rect key="frame" x="140" y="399" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <state key="normal" title="Home">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="goHome:" destination="3Ex-GA-YXD" eventType="touchUpInside" id="TCK-hL-AUZ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <navigationItem key="navigationItem" id="5rS-hL-vXP"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rt0-PR-qKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3546" y="-43"/>
+            <point key="canvasLocation" x="3566" y="-20"/>
         </scene>
     </scenes>
     <resources>
-        <image name="18486840.JPG" width="1620" height="1080"/>
-        <image name="2.jpg" width="600" height="400"/>
-        <image name="CommonwealthLogo.jpg" width="78" height="77"/>
-        <image name="mrloh.jpg" width="630" height="420"/>
-        <image name="nnsch2834e_0.jpg" width="722" height="410"/>
+        <image name="2.jpg" width="960" height="717"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
