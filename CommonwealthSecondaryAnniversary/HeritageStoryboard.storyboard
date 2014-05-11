@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="QaL-ve-ahf">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="QaL-ve-ahf">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3746"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
         <!--Heritage View Controller-->
@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Sand.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-DX-Tyr">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="v8S-DX-Tyr">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -100,14 +100,14 @@ Ever with the Best!
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.24999999999999967" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="values.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GZL-46-aXL">
+                            <imageView userInteractionEnabled="NO" alpha="0.24999999999999967" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GZL-46-aXL">
                                 <rect key="frame" x="0.0" y="0.0" width="340" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="5Gd-hA-YND">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <mutableString key="text">WEALTH Values                                                                   Warmth  -  Care and concern for members of the Commonwealth family, the wider community and the world.                                                                                    Enterprise  -  Initiate and resoursefulness to trail-blaze new frontiers.                        Adventurousness  -  Enthusiasm to explore new ideas and new learning experiences. Desire for continuous learning and growth.                                   Loyalty  -  Sense of duty and responsibilty to family, friends, school, community and country.                                                 Tenacity  -  "Grit", the ability to persevere through hardship to acheive success. Willingness to engage in productive failure in order to achieve success.                                                                       Honour  -  Integrity and pride. Upholding and enhancing the reputation of the school.</mutableString>
+                                <string key="text">WEALTH Values                                                                   Warmth  -  Care and concern for members of the Commonwealth family, the wider community and the world.                                                                                    Enterprise  -  Initiate and resoursefulness to trail-blaze new frontiers.                        Adventurousness  -  Enthusiasm to explore new ideas and new learning experiences. Desire for continuous learning and growth.                                   Loyalty  -  Sense of duty and responsibilty to family, friends, school, community and country.                                                 Tenacity  -  "Grit", the ability to persevere through hardship to acheive success. Willingness to engage in productive failure in order to achieve success.                                                                       Honour  -  Integrity and pride. Upholding and enhancing the reputation of the school.</string>
                                 <color key="textColor" red="1" green="0.047118742969354588" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -143,14 +143,14 @@ Ever with the Best!
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="old_music_score_background-wallpaper-2560x1600.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-0q-lBq">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-0q-lBq">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kHr-ju-9Rc">
                                 <rect key="frame" x="40" y="94" width="240" height="367"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <mutableString key="text">Commonwealth Secondary School                                                      To you we pledge our loyalty Neither colour nor creed shall affect The total unity we pledge to you Your flag and principles we'll cherish Even if we have in the course to perish The cresent and stars five shall guide                           The flame of solidarity in which we pride                                                  To serve will be our very aim             No influence will pur zeal maim        The purity of thought and deed we'll nurture                                               Thus we will attain stature</mutableString>
+                                <string key="text">Commonwealth Secondary School                                                      To you we pledge our loyalty Neither colour nor creed shall affect The total unity we pledge to you Your flag and principles we'll cherish Even if we have in the course to perish The cresent and stars five shall guide                           The flame of solidarity in which we pride                                                  To serve will be our very aim             No influence will pur zeal maim        The purity of thought and deed we'll nurture                                               Thus we will attain stature</string>
                                 <color key="textColor" red="1" green="0.0" blue="0.72509444010000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -182,11 +182,6 @@ Ever with the Best!
             <point key="canvasLocation" x="1336" y="-56"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="Sand.jpg" width="1280" height="1024"/>
-        <image name="old_music_score_background-wallpaper-2560x1600.jpg" width="2560" height="1600"/>
-        <image name="values.jpg" width="1600" height="1064"/>
-    </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>

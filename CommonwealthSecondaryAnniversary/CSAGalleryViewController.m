@@ -29,4 +29,8 @@
 - (IBAction)goBack:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+- (IBAction)goHome:(id)sender {
+    [self.navigationController popToRootViewControllerAnimated:YES];
+}
 @end
